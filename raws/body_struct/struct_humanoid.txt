@@ -1,0 +1,264 @@
+id:torso
+name:		torso
+health:		50
+blood:		100
+lethal:		false
+contains_bone:	true
+weight:		30
+equip_slot:	armor
+
+id:neck
+name:		neck
+health:		5
+blood:		15
+lethal:		true
+contains_bone:	true
+weight:		3
+connect:	torso;
+equip_slot:	necklace
+body_tags:	breathe;eat;
+
+id:head
+name:		head
+plural_name:	heads
+health:		10
+blood:		10
+lethal:		true
+contains_bone:	true
+weight:		4
+connect:	neck;
+equip_slot:	head
+leave_bits:	true
+body_tags:	breathe;eat;
+
+id:leye
+name:		eye
+plural_name:	eyes
+weight:		1
+health:		1
+lethal:		false
+connect:	head
+contains_bone:	false
+leave_bits:	true
+is_inside:	true
+body_tags:	see;
+
+id:reye
+name:		eye
+plural_name:	eyes
+weight:		1
+health:		1
+lethal:		false
+connect:	head
+contains_bone:	false
+leave_bits:	true
+is_inside:	true
+body_tags:	see;
+
+id:lear
+name:		ear
+plural_name:	ears
+weight:		1
+health:		1
+lethal:		false
+connect:	head
+contains_bone:	false
+leave_bits:	true
+body_tags:	hear;
+
+id:rear
+name:		ear
+plural_name:	ears
+weight:		1
+health:		1
+lethal:		false
+connect:	head
+contains_bone:	false
+leave_bits:	true
+body_tags:	hear;
+
+id:brain
+name:		brain
+plural_name:	brains
+weight:		3
+health:		7
+lethal:		true
+connect:	helmet
+contains_bone:	false
+leave_bits:	true
+is_inside:	true
+body_tags:	think;
+
+id:heart
+name:		heart
+plural_name:	hearts
+blood:		100
+health:		10
+lethal:		true
+contains_bone:	false
+weight:		5
+connect:	torso
+is_inside:	true
+leave_bits:	true
+
+id:llung
+name:		lung
+plural_name:	lungs
+blood:		5
+lethal:		false
+heath:		15
+weight:		6
+connect:	torso
+leave_bits:	true
+is_inside:	true
+body_tags:	breathe;
+
+id:rlung
+name:		lung
+plural_name:	lungs
+blood:		5
+lethal:		false
+heath:		15
+weight:		6
+connect:	torso
+leave_bits:	true
+is_inside:	true
+body_tags:	breathe;
+
+id:lshoulder
+name:		left&sshoulder
+health:		25
+blood:		15
+lethal:		false
+contains_bone:	true
+weight:		8
+connect:	torso;
+equip_slot:	paldron
+leave_bits:	false
+
+id:larm
+name:		left&sarm
+health:		15
+blood:		15
+lethal:		false
+contains_bone:	true
+weight:		7
+connect:	lshoulder
+equip_slot:	gauntlet
+leave_bits:	true
+
+id:lhand
+name:		left&shand
+health:		10
+blood:		5
+lethal:		false
+contains_bone:	true
+weight:		3
+connect:	larm
+equip_slot:	glove
+leave_bits:	true
+body_tags:	grasp;
+
+id:rshoulder
+name:		right&sshoulder
+health:		25
+blood:		15
+lethal:		false
+contains_bone:	true
+weight:		8
+connect:	torso;
+equip_slot:	paldron
+leave_bits:	false
+
+id:rarm
+name:		right&sarm
+health:		15
+blood:		15
+lethal:		false
+contains_bone:	true
+weight:		7
+connect:	lshoulder
+equip_slot:	gauntlet
+leave_bits:	true
+
+id:rhand
+name:		right&shand
+health:		10
+blood:		5
+lethal:		false
+contains_bone:	true
+weight:		3
+connect:	larm
+equip_slot:	glove
+leave_bits:	true
+body_tags:	grasp;
+
+id:lowerbody
+name:		lower&sbody
+health:		40
+blood:		40
+lethal:		false
+contains_bone:	true
+weight:		20
+connect:	torso
+equip_slot:	belt
+leave_bits:	false
+
+id:stomache
+name:		stomache
+plural_name:	stomaches
+blood:		10
+lethal:		false
+heath:		15
+weight:		3
+connect:	lowerbody
+leave_bits:	true
+is_inside:	true
+body_tags:	digest;
+
+id:lleg
+name:		left&sleg
+health:		30
+blood:		40
+lethal:		false
+contains_bone:	true
+weight:		10
+connect:	lowerbody
+equip_slot:	grieve
+leave_bits:	true
+
+id:lfoot
+name:		left&sfoot
+health:		15
+blood:		25
+lethal:		false
+contains_bone:	true
+weight:		5
+connect:	lleg
+equip_slot:	boot
+leave_bits:	true
+body_tags:	stand;
+
+id:rleg
+name:		right&sleg
+health:		30
+blood:		40
+lethal:		false
+contains_bone:	true
+weight:		10
+connect:	lowerbody
+equip_slot:	grieve
+leave_bits:	true
+
+id:rfoot
+name:		right&sfoot
+health:		15
+blood:		25
+lethal:		false
+contains_bone:	true
+weight:		5
+connect:	lleg
+equip_slot:	boot
+leave_bits:	true
+body_tags:	stand;
+

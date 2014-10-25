@@ -1,0 +1,11 @@
+// BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+WINDOW: main.dm;entity\entity.dm;entity\entity_damage.dm;terrain\terrain.dm;entity\object\object.dm;template\template_load.dm;template\template.dm;template\material.dm;map\map handler.dm;entity\creature\creature.dm;entity\creature\body_part\body_part.dm;entity\creature\body_part\body_part_template.dm;rpg.dme
+LAST_COMPILE_VERSION: 506.1239
+DIR: entity entity\creature entity\creature\body_part entity\object map raws raws\body_struct raws\mat template terrain 
+FILE: main.dm
+LAST_COMPILE_TIME: 1414263443
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS
